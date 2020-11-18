@@ -7,8 +7,7 @@ html{
 body{
     display: flex;
     flex-direction: column;
-    height: 90%;
-    background-image: url("../img/mapa.png");
+    height: 100%;
 }
 
 header{
@@ -17,77 +16,80 @@ header{
     justify-content: center;
     align-items: center;
     max-width: 100%;
-    width: 100%;
     height: 10%;
+    width: 100%;
+    border-bottom: 0.2rem solid black;
 }
 
+h1{
+    font-size: 1.5rem;
+    font-family: 'Kurale', serif;
+}
 .menu{
     position: absolute;
-    top: 1.5%;
-    left: 1.5%;
-    width: 3rem;
-    height: 3rem;
+    top: 1.2%;
+    left: 0;
+    width: 2rem;
+    height: 2rem;
+    margin-left: 1rem;
 }
 
-.localizacao{
-    position: fixed;
+main{
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    bottom: 10%;
-    height: 50%;
-    width: 100%;
-    border-width: 1px 1px 0 1px;
-    border-style: solid;
-    border-color: black;
-    padding: 10px;
-    background-color: white;
-    border-radius: 10px 10px 0 0;
+    height: 80%;
 }
 
+.checkbox{
+    align-self: flex-start;
+    font-family: 'Kurale', serif;
+    font-size: 1.5rem;
+}
 
-.texto{
-    margin-top: 1.5rem;
+.informacoes{
+    margin-top: 0.5rem;
     padding: 0.5rem;
     font-family: 'Kurale', serif;
-    font-size: 0.5rem;
+    font-size: 1.5rem;
+    align-self: flex-start;
 }
 
-.digitar{
-    margin: 0.5rem;
+.informacoes2{
+    margin: 0.1rem;
     border-radius: 0.5rem;
-    padding: 3%;
+    padding: 0.6rem;
+    width: 70%;
 }
 
-.voltar{
-    position: absolute;
-    bottom: 1.5%;
-    left: 1.5%;
-    width: 3rem;
-    height: 3rem;
-}
-
-.proxima_pagina{
+.confirmar_pedido{
     font-family: 'Kurale', serif;
     font-size: 1rem;
     border: 0.3rem solid black; 
-    padding: 1rem;
-    align-self: center;
+    padding: 0.5rem;
 }
 
 footer{
+    position: fixed;
+    bottom: 0;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-direction: row-reverse;
+    justify-content: space-around;
     align-items: center;
     max-width: 100%;
     height: 10%;
     width: 100%;
     border-top: 0.1rem solid black;
+    background-color: white;
 }
 
 .etapas{
     width: 80%;
     height: 30%;
-    align-self: center;
+}
+
+.voltar{
+    width: auto;
+    height: 2rem;
 }

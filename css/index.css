@@ -47,6 +47,7 @@ main{
     padding: 0.5rem;
     font-family: 'Kurale', serif;
     font-size: 2rem;
+    align-self: flex-start;
 }
 
 .logar2{
