@@ -51,6 +51,8 @@ main{
 
 .logar2{
     margin: 0.5rem;
+    border-radius: 0.5rem;
+    padding: 3%;
 }
 
 .esqueci_senha{
