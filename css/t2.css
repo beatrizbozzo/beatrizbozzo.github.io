@@ -81,12 +81,12 @@ p{
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    overflow: auto;
     width: 80%;
     max-width: 100%;
     height: 80%;
     border: 0.2rem solid black;
     max-height: 80%;
+    padding: 0.3rem;
 }
 
 .emerg_resgate{
@@ -95,14 +95,14 @@ p{
 }
 
 .imagem_cruz_vermelha{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     align-self: center;
 }
 
 .imagem_cachorros{
-    width: 5rem;
-    height: 5rem;
+    width: 4rem;
+    height: 4rem;
     align-self: center;
 }
 
