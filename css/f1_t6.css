@@ -41,11 +41,15 @@ main{
     align-items: flex-start;
 }
 
+.hidden{
+    display: none;
+}
 
 .icone_fixo{
     height: 4rem;
     padding: 0.5rem;
 }
+
 
 footer{
     position: fixed;
