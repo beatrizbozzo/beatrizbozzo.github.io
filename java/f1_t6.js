@@ -1,15 +1,10 @@
 document.addEventListener('DOMContentLoaded', function() {
-    function before() {
-    }
-
     function after() {
-        a = document.querySelector('p')
-        a.innerHTML = 'A viagem do seu Aumigo foi finalizada! Clique aqui para avaliar o seu cãotorista'
+        let elemento1 = document.querySelector(".popup")
+        elemento1.classList.remove("hidden")
+        let elemento2 = document.querySelector(".body")
+        elemento2.classList.add("opacity")
     }
-    a = document.querySelector('a')
-
-    a.addEventListener('click', function() {
-        before()
-        setTimeout(after, 1)
-    })
+    setTimeout(after, 3000)
+    
 })
