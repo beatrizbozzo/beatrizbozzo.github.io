@@ -18,13 +18,15 @@ header{
     max-width: 100%;
     height: 10%;
     width: 100%;
-    border-bottom: 0.2rem solid black;
+    border-bottom: 0.2rem solid #1f5a66;
+    background-color: rgb(240, 240, 240);
 }
 
 h1{
     font-size: 1.5rem;
     font-family: 'Kurale', serif;
 }
+
 .menu{
     position: absolute;
     top: 1.2%;
@@ -58,16 +60,24 @@ main{
 
 .informacoes2{
     margin: 0.1rem;
+    border: 0.15rem solid #1f5a66;
     border-radius: 0.5rem;
     padding: 0.6rem;
     width: 70%;
 }
 
-.confirmar_pedido{
+.proxima_pagina{
     font-family: 'Kurale', serif;
     font-size: 1rem;
-    border: 0.3rem solid black; 
+    border: 0.05rem solid black;
     padding: 0.5rem;
+    border-radius: 0.4rem;
+    background-color: #1f5a66;
+}
+
+.texto{
+    text-decoration: none;
+    color:white;
 }
 
 footer{
@@ -80,8 +90,8 @@ footer{
     max-width: 100%;
     height: 10%;
     width: 100%;
-    border-top: 0.1rem solid black;
-    background-color: white;
+    border-top: 0.2rem solid  #1f5a66;
+    background-color: rgb(240, 240, 240);
 }
 
 .etapas{

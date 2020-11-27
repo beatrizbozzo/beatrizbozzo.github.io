@@ -19,7 +19,7 @@ header{
     max-width: 100%;
     width: 100%;
     height: 10%;
-    border-bottom: 0.2rem solid black;
+    border-bottom: 0.2rem solid #1f5a66;
 }
 
 .menu{
@@ -84,7 +84,7 @@ p{
     width: 80%;
     max-width: 100%;
     height: 80%;
-    border: 0.2rem solid black;
+    border: 0.2rem solid #1f5a66;
     max-height: 80%;
     padding: 0.3rem;
 }
@@ -92,6 +92,7 @@ p{
 .emerg_resgate{
     font-family: 'Kurale', serif;
     font-size: 2rem;
+    color:black;
 }
 
 .imagem_cruz_vermelha{
@@ -114,7 +115,8 @@ footer{
     max-width: 100%;
     height: 10%;
     width: 100%;
-    border-top: 0.1rem solid black;
+    border-top: 0.2rem solid #1f5a66;
+    background-color: rgb(240, 240, 240);
 }
 
 .etapas{
