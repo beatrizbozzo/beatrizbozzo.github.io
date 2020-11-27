@@ -123,7 +123,7 @@ label{
     max-width: 100%;
 }
 
-#trigger{
+#trigger1{
     display: none;
 }
 
@@ -136,6 +136,38 @@ label{
     background-repeat: no-repeat;
 }
 
-#trigger:checked + .checker {
+#trigger1:checked + .checker {
+    background-position: right center;
+}
+
+#trigger2{
+    display: none;
+}
+
+#trigger2:checked + .checker {
+    background-position: right center;
+}
+
+#trigger3{
+    display: none;
+}
+
+#trigger3:checked + .checker {
+    background-position: right center;
+}
+
+#trigger4{
+    display: none;
+}
+
+#trigger4:checked + .checker {
+    background-position: right center;
+}
+
+#trigger5{
+    display: none;
+}
+
+#trigger5:checked + .checker {
     background-position: right center;
 }
