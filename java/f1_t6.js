@@ -5,6 +5,6 @@ document.addEventListener('DOMContentLoaded', function() {
         let elemento2 = document.querySelector(".body")
         elemento2.classList.add("opacity")
     }
-    setTimeout(after, 3000)
+    setTimeout(after, 15000)
     
 })
